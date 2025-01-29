@@ -20,4 +20,4 @@ Fine-tuned model thresholds and balanced class weights to boost recall, ensuring
 
 Technologies Used:
 Programming Languages & Libraries: Python, NumPy, Pandas, PyTorch, scikit-learn, Seaborn.
-Deployment Tools: Chrome extension framework for seamless integration and user accessibilit
+Deployment Tools: Chrome extension framework for seamless integration and user accessibility
