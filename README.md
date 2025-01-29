@@ -1,19 +1,23 @@
-## Bankruptcy Prediction Model
+Creddy (Model Implementation)
+Jul 2024 - PresentJul 2024 - Present
+Creddy: Credit Risk Chrome Extension
 
-This project is an ensemble machine learning model designed to predict company bankruptcy with high accuracy and recall, minimizing the risk of false negatives. The model combines a neural network, random forest, and logistic regression, achieving 97% accuracy and 81% recall.
+Project Overview:
+Developed Creddy, an ensemble machine learning model integrated into a Chrome extension, to predict company bankruptcy with 90% accuracy and 93% recall. The extension prioritizes minimizing false negatives to enhance reliability in financial risk management.
 
-### Project Highlights
+Key Features:
+Automated Financial Data Extraction: Scrapes financial parameters from a company's balance sheet, income statement, and statement of cash flows.
+Risk Prediction Outputs: Provides both a binary risk prediction and a risk probability.
+Altman Z-Score Comparison: Compares the risk prediction output with the Altman Z-Score to determine a comprehensive risk level for the company.
+Target Audience: Designed for external investors, company employees, and interested applicants seeking financial insights.
 
-- **Model Architecture**: Ensemble model integrating neural network, random forest, and logistic regression to maximize predictive accuracy and robustness.
-- **Data Preparation**: Comprehensive data preprocessing and feature engineering, including selection of financial ratios like Return on Assets (ROA), Debt Ratio, and Altman Z-Score to enhance prediction reliability.
-- **Optimization**: Fine-tuned with threshold adjustments and balanced class weights to improve recall, particularly focused on minimizing false negatives to capture potential bankruptcies effectively.
-- **Technologies Used**: Python, TensorFlow, scikit-learn, and Pandas.
+Data Preparation:
+Conducted extensive preprocessing and feature engineering.
+Selected key financial ratios such as ROA, Debt Ratio, and Altman Z-Score to enhance prediction reliability.
 
-### Key Results
+Optimization:
+Fine-tuned model thresholds and balanced class weights to boost recall, ensuring effective identification of potential bankruptcies.
 
-- **Performance**: The model achieved 97% accuracy and 81% recall, providing a reliable tool for bankruptcy risk assessment with minimal false negatives.
-- **Real-World Applicability**: By focusing on false negatives, this model is particularly useful in financial risk management contexts where missing a bankruptcy prediction has significant consequences.
-
-### Dataset
-
-The dataset used in this project is derived from kaggle. Please ensure you have the appropriate permissions to use the data.
+Technologies Used:
+Programming Languages & Libraries: Python, NumPy, Pandas, PyTorch, scikit-learn, Seaborn.
+Deployment Tools: Chrome extension framework for seamless integration and user accessibilit
